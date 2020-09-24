@@ -3,7 +3,6 @@
 
 ### Topics:
 
-- [Tables & Keys] 
 - [SQL Basics] 
 - [Creating Tables] 
 - [Inserting Data] 
@@ -11,7 +10,7 @@
 - [Update & Delete] 
 - [Basic Queries] 
 - [Company Database]
-- [Intro Creating Company Database] 
+- [Creating Company Database] 
 - [More Basic Queries] 
 - [Functions] 
 - [Wildcards] 

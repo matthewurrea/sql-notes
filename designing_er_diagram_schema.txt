@@ -1,0 +1,18 @@
+Converting ERD to a Schema
+
+Step 1: Mapping of Regular Enitity Types
+For each regular entity type create a relation (table) that includes all the simple attributes of that entity. 
+Composite attributes are related by each sub attribute in the table. 
+
+Step 2: Mapping of Weak Enity Types
+For each weak entity type create a relation (table) that includes all simple attributes of the weak entity. 
+The primary key of the new relation should be the partial key of the weak enitiy plus the primary key of its owner. 
+
+Step 3: Mapping of Binary 1:1 Relationship Types
+Include one side of the relationship as a foreign key, in the other Favor total participation.
+
+Step 4: Mapping of Binary 1:N Relationship Types
+Include the 1 side's primary key as a foreign key on the N side relation(table)
+
+Step 5: Mapping of Binary M:N Relationship Types
+Create a new relation (table) who's primary key is a combination of both entites' primary key's. Also include any relationship attributes.

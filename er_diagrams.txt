@@ -1,0 +1,65 @@
+Enity Relationship Diagram
+(for this example we are using a school)
+
+
+Entity - An object we want to model and store information about.
+
+Entity1 - STUDENT
+
+Attributes - A specific pieces of information about an entity.
+
+STUDENT.NAME
+STUDENT.GRADE#
+STUDENT.GPA
+
+Primary Key - An attribute(s) that uniquely identify an entry in the database table.
+
+STUDENT.ID 
+
+Composite Attribute - An attribute that can be broken up into sub-attributes.
+
+STUDENT.NAME.FirstNAME/LastNAME
+
+Multi-valued Attribute - An attribute that can have more than one value.
+
+STUDENT.clubs (two circle circle)
+
+Derived Attribute - An attribute that can be derived from the other attributes.
+
+STUDENT.has_honors
+
+Multiple Entites - You can define more than one entity in the diagram.
+
+CLASS.CLASS_ID
+
+Relationships - defines a relationship between two entities 
+
+(STUDENT) partial participation (takes) total participation (CLASS)
+
+single line = partial participation
+double line = total participation 
+
+Total Participation - All members must participate in the relationship.
+
+Relationship Attribute - An attribute about the relationship. 
+
+Takes.grade
+
+Relationship Cardinality - the number of instances of an entity from a relation that can be associated with the relation. 
+
+1:1
+1:N 
+N:M
+
+STUDENT N Takes M CLASS 
+
+Weak Enity - An entity that cannot be uniquely indentified by its attributes alone. 
+
+Identifying relationship - A relationship that serves to uniquly identify the weak entity. 
+
+CLASS has EXAM.exam_id
+(CLASS) partial participation (HAS) total participation (EXAM)
+
+(EXAM cannot exist without a CLASS)
+(just as CLASS cannot exist without a STUDENT)
+
