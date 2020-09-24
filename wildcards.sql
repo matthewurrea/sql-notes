@@ -19,3 +19,10 @@ SELECT *
 FROM employee
 WHERE birth_day LIKE '____-10%';
 
+-- Find any clients who are schools
+SELECT * 
+FROM client 
+WHERE client_name LIKE '%school%';
+
+
+
