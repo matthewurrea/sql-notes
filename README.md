@@ -27,3 +27,5 @@
 
 <h3>Local SQL Development Server via mySQL 8.0 Command Line</h3> 
 <h3>SQL editor - PopSQL</h3>
+
+<p>Queries are not meant to be run. They are just being used as my quick reference notes</p>
