@@ -1,0 +1,13 @@
+CREATE TABLE student (
+    student_id INT,
+    name VARCHAR (20),
+    major VARCHAR (20),
+    PRIMARY KEY (student_id)     
+);
+--select all student from the student table
+SELECT * FROM student; 
+
+--insert values into rows
+INSERT INTO student VALUES(1, 'Jack', 'Biology');
+
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
